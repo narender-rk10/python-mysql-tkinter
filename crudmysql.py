@@ -6,7 +6,7 @@ from tkinter import messagebox
 connection = mysql.connector.connect(host="localhost",
                             user="root",
                             port=3308,
-                            password="Narend-10",
+                            password="yourpassword",
                             database="py11")
 
 def create():  
